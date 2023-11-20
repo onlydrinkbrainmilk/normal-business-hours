@@ -1,0 +1,57 @@
+body {
+    font-family: "Shizuru", cursive;
+    margin-top: 2em;
+    margin-left: 5em;
+    background-color: #e7eeed;
+    cursor: url(https://cdn.glitch.global/47f6922c-8f38-4a02-8a41-68eed65a91fb/cursor.png?v=1646260155076),
+      auto;
+  }
+  
+  h1 {
+    font-size: 50;
+    color: #1f0400;
+    overflow: hidden;
+    border-right: 0.2em solid red; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: typing 10s steps(40, end), blink-caret 0.75s step-end 4;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: red;
+    }
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  area{
+    cursor:url(https://cdn.glitch.global/47f6922c-8f38-4a02-8a41-68eed65a91fb/cursor2_50x50.png?v=1646278807964), auto;
+  }
+  a{
+    cursor:url(https://cdn.glitch.global/47f6922c-8f38-4a02-8a41-68eed65a91fb/cursor2_50x50.png?v=1646278807964), auto;
+  }
+  
+  
+  
+  h2{
+    font-family: "Amatic SC", cursive;
+    font-size: 25;
+  }
