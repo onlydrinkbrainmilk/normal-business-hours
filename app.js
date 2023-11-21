@@ -22,8 +22,8 @@ function workingHours(req, res, next) {
 
   const normalBusinessHours = {
     // 24 hour time
-    open: 12,
-    close: 20,
+    open: 7,
+    close: 13,
   };
 
   // check if within normal business hours
